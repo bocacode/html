@@ -10,11 +10,11 @@ let students = ["bob","samantha","lily","grace","jim"]
 
 app.get("/",(req,res)=> {
 
-    let output = "<html><body><h1>" // starts
+    let output = "<html><body>" // starts
     
-    output = output + "hello there html" //middle
+    output = output + 'hello there html' //middle
 
-    output = output + "</h1></body></html>" //end
+    output = output + "</body></html>" //end
 
     res.send(output)
 })
